@@ -36,3 +36,100 @@ Vuotalo
 Lempipaikkani Helsingissä <!-- Tee tästä lihavoitu (strong) teksti -->
 
 <!-- Tee numeroitu luettelo johon keksit 3 paikkaa Helsingistä joista pidät. Katso mallia tehtävän Esimerkit -> Listat -kohdasta -->
+
+Tee yksinkertainen Internetsivu Windowsin muistio-työkalulla. Löydät muistio-työkalun esimerkiksi kirjoittamalla Windowsin hakukenttään muistio.
+
+Älä kopioi suoraan, vaan kirjoita kaikki tagit ja niiden sisältö itse alusta loppuun.
+
+Malliesimerkin sivupohjasta löydät esim. Opiskelumateriaalit-kansiosta. Tehtävän yhteydessä alempana on kohta Esimerkit josta löydät ohjeita ja vinkkejä lisättävien elementtien kanssa.
+
+Lisää sivun metatietoihin tekemäsi fav-ikoni (ks. Esimerkit->Metatiedot). Lisää myös sivun otsikko nimellä Helsinki.
+Kopioi tehtävän liitteenä olevan helsinki.txt -tiedoston sisältö body-tagien sisälle ja tee siihen tiedostossa ohjeistetut muutokset.
+Lisää tämän jälkeen nettisivulle kaksi linkkiä (www.hel.fi ja www.hs.fi). Tee linkkeihin target-attribuutti avaamaan sivut uuteen ikkunaan (ks. Esimerkit->Linkit).
+Lisää linkkien jälkeen kolme itse tekemääsi/ottamaasi kuvaa sivulle <img src...-tagin avulla (ks. Esimerkit->Kuvat). Optimoi kuvat nettiin sopiviksi .jpg -muodossa. Tee kuvien optimointi Photoshopissa Export -> Save for Web -työkalun avulla. Kuvat voivat olla muuten haluamasi kokoisia, mutta leveyden tulee olla maksimissaan 400px. Määrittele kuvien koot, vaihtoehtoinen teksti (mikäli kuva ei lataudu) ja otsikko (title) kuvan tietoihin (ks. Esimerkit -> Kuvat).
+Lisää tehtävän 3 kuvakkeet nettisivulle ja tee näille kullekin kuvakkeelle linkki haluamallesi nettisivuille. 
+Tallenna nimellä helsinki.html tai helsinki.htm. Laita tallentamasi helsinki.html ja käyttämäsi kuvat samaan kansioon jonka nimeät esim. nettisivu. Pakkaa tämä kansio Windowsin pakkaustyökalulla (ks. Kuva1) ja palauta kansio tehtävän yhteyteen.
+
+ 
+
+Kuva1. Klikkaa hiiren oikealla painikkeella kansiota ja pakkaa se kuvassa näkyvällä tavalla.
+
+
+
+ 
+
+Esimerkit
+
+ 
+
+Tehtävässä käytettäviä elementtejä (tageja)
+
+<h1> = Ykköstason otsikko
+
+<p> = Tekstikappale
+
+<a> = Linkki
+
+<img> = Kuva
+
+ 
+
+Metatiedot
+
+<meta charset="UTF-8">
+
+<html lang="fi">
+
+<link rel="shortcut icon" type="image/gif" href="tiedostonimi.gif"/>
+
+<title>Matti Meikäläisen kotisivu</title>
+
+ 
+
+Sivun näkyvää sisltöä
+
+<h1>Minun ensimmäinen otsikko</h1>
+
+<p>Tervetuloa kotisivuilleni</p>
+
+ 
+
+Linkit
+
+<a href="https://www.youtube.com" target="_blank">Youtube</a>
+
+ 
+
+Kuvat
+
+<img src="kuvan_nimi.jpg" title="Kuvan otsikko" alt="Vaihtoehtoinen teksti mikäli kuva ei lataudu" width="500" height="600">
+
+ 
+
+Kuvalinkit
+
+<a href="http://www.hs.fi"><img src="kuvan_nimi.gif" alt="Vaihtoehtoinen teksti mikäli kuva ei lataudu" width="500" height="600"></a>
+
+ 
+
+Listat
+
+Esimerkki numeroimattomasta listasta
+
+<h2>Leffoja ja sarjoja</h2>
+<ul>
+  <li>Guardians of the Galaxy</li>
+  <li>Game of Thrones</li>
+  <li>The Shawshank Redemption</li>
+</ul>
+
+ 
+
+Esimerkki numeroidusta listasta
+
+<h2>Ruokia</h2>
+<ol>
+  <li>Tortillat</li>
+  <li>Sushi</li>
+  <li>Risotto</li>
+</ol>
